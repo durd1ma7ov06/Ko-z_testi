@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ko'zingizni sinang!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- O'yin Sahifasi -->
+    <div id="gamePage" class="container">
+        <h1>Ko'zingizni sog'lomligini sinab ko'ring!</h1>
+        <div id="countdown"></div>
+        <div id="harf">A</div>
+        <button id="startBtn">Testni boshlash</button>
+        <p id="status">Harflarni tog'riligiga ishonch komil qiling !</p>
+        <div id="testStatus">Test boshlandi...</div> <!-- Ko'k ramkadagi status -->
+    </div>
+
+    <!-- Natija Sahifasi -->
+    <div id="resultPage" class="container">
+        <h1>O'yin tugadi!</h1>
+        <p id="result"></p>
+        <button onclick="restartGame()">Qayta boshlash</button>
+    </div>
+    
+ <footer>
+       <p style="font-weight: bold; color: black;">Muallif: Guli Jumaboyeva</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
